@@ -33,5 +33,5 @@ def about():
         'about.html',
         title='About',
         year=datetime.now().year,
-        message='Your application description page.'
+        message='This is my page :)'
     )
