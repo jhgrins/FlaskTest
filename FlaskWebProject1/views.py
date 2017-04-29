@@ -12,7 +12,7 @@ def home():
     """Renders the home page."""
     return render_template(
         'index.html',
-        title='Home Page',
+        title='Ohana Means Family',
         year=datetime.now().year,
     )
 
@@ -23,7 +23,7 @@ def contact():
         'contact.html',
         title='Contact',
         year=datetime.now().year,
-        message='Your contact page.'
+        message='Contact us!'
     )
 
 @app.route('/about')
@@ -31,7 +31,7 @@ def about():
     """Renders the about page."""
     return render_template(
         'about.html',
-        title='About',
+        title='About Us',
         year=datetime.now().year,
-        message='This is my page :)'
+        message='Our Own Happily Ever After...'
     )
